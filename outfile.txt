@@ -1,0 +1,44 @@
+----------------------------------------
+Event: insert with priority
+Added: Arrival at time 3 
+Currently in List: Arrival at time 3 
+----------------------------------------
+Event: insert with priority
+Added: Departure at time 9
+Currently in List: Arrival at time 3  || Departure at time 9
+----------------------------------------
+Event: get next
+Next Event Removed: Arrival at time 3 
+Currently in List: Departure at time 9
+----------------------------------------
+Event: peek
+Next Event: Departure at time 9
+Currently in List: Departure at time 9
+----------------------------------------
+Event: insert with priority
+Added: Arrival at time 8
+Currently in List: Arrival at time 8 || Departure at time 9
+----------------------------------------
+Event: insert with priority
+Added: Departure at time 13
+Currently in List: Arrival at time 8 || Departure at time 9 || Departure at time 13
+----------------------------------------
+Event: get next
+Next Event Removed: Arrival at time 8
+Currently in List: Departure at time 9 || Departure at time 13
+----------------------------------------
+Event: length
+Length of Event List: 2
+Currently in List: Departure at time 9 || Departure at time 13
+----------------------------------------
+Event: insert with priority
+Added: Arrival at time 11
+Currently in List: Departure at time 9 || Arrival at time 11 || Departure at time 13
+----------------------------------------
+Event: get next
+Next Event Removed: Departure at time 9
+Currently in List: Arrival at time 11 || Departure at time 13
+----------------------------------------
+Event: delete
+Deleted: Arrival at time 11
+Currently in List: Departure at time 13
